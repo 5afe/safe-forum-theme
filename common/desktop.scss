@@ -1,0 +1,10 @@
+.category-heading {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.category-logo.aspect-image img {
+  min-height: 120px;
+  min-width: 120px;
+}
