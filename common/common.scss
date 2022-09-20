@@ -1,3 +1,17 @@
+@import url(https://fonts.google.com/specimen/DM+Sans?query=popp);
+
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  background: #121312 !important;
+}
+
+body {
+  font-family: 'DM+Sans', sans-serif;
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -483,4 +497,38 @@ html body #main-outlet {
     position: fixed;
     z-index: 0;
   }
+}
+
+// Categories
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+  box-shadow: none;
+  border: 1px solid var(--tertiary-very-low);
+  border-left-width: 1px !important;
+}
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:hover {
+  box-shadow: none;
+  border: 1px solid var(--tertiary);
+  background-color: var(--secondary);
+}
+
+.category-logo {
+  background-color: var(--tertiary-very-low) !important;
+}
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present .category-abbreviation {
+  color: var(--tertiary);
+}
+
+.category-heading p {
+  font-size: var(--font-up-5);
+}
+
+// Posts
+.topic-body {
+  background: var(--secondary) !important;
+}
+
+.full-width .contents .topic-list .topic-list-body .topic-list-item {
+  background-color: var(--secondary) !important;
 }
