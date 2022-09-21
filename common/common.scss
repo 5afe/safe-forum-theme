@@ -546,6 +546,19 @@ html body #main-outlet {
   font-size: var(--font-up-5);
 }
 
+// Categories boxes
+.custom-category-boxes:not(.above-discovery-categories-outlet) .description {
+  display: none;
+}
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .subcategories {
+  display: block;
+}
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .subcategory {
+  display: inline-block;
+}
+
 // Posts
 .topic-body {
   background: var(--secondary) !important;
