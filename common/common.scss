@@ -7,11 +7,11 @@
 
 // side bar
 .sidebar-wrapper {
-  background-color: #121312;
+  background-color: #121312 !important;
 }
 .sidebar-footer-container {
-  background: #121312;
-  border-top: none;
+  background: #121312 !important;
+  border-top: none !important;
 }
 .sidebar-footer-container::before {
   background: none;
