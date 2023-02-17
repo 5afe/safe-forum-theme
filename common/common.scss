@@ -5,6 +5,18 @@
   font-family: 'DM+Sans', sans-serif;
 }
 
+// side bar
+.sidebar-wrapper {
+  background-color: #121312;
+}
+.sidebar-footer-container {
+  background: #121312;
+  border-top: none;
+}
+.sidebar-footer-container::before {
+  background: none;
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
